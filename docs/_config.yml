@@ -1,1 +1,4 @@
 theme: jekyll-theme-architect
+title: [Transitive Network]
+description: [A layer-2 tokenless scalable payment network for Ethereum]
+show_downloads: ["true"]
