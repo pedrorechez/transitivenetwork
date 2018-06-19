@@ -1,6 +1,14 @@
-# This is a header
+# News
 
-## This is another header
+<span style="color:red">19-June-2018:</span> **The website goes online!**
 
-#### This is the website here
+# Team
+
+* [Aniket Kate](https://www.cs.purdue.edu/homes/akate/)
+* [Pedro Moreno-Sanchez](https://www.cs.purdue.edu/homes/pmorenos/)
+* Adithya Bhat
+* Durga Keerthi Mandarapu
+
+
+# Our Previous Research Work
 Transitive Network: A tokenless layer-2 scalable payment network for Ethereum
