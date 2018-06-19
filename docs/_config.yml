@@ -3,4 +3,4 @@ title: [Transitive Network]
 description: [A layer-2 tokenless scalable payment network for Ethereum]
 show_downloads: ["false"]
 github:
- is_user_page" ["true"]
+ is_user_page: ["true"]
