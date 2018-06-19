@@ -12,3 +12,6 @@
 
 # Our Previous Research Work
 
+* [Mind Your Credit: Assessing the Health of the Ripple Credit Network](https://arxiv.org/abs/1706.02358)
+* [Settling Payments Fast and Private: Efficient Decentralized Routing for Path-Based Transactions] (https://arxiv.org/abs/1709.05748)
+* [Concurrency and Privacy with Payment-Channel Networks](https://eprint.iacr.org/2017/820)
