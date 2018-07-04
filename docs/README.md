@@ -13,7 +13,7 @@
 # Project Description
 In this project, we plan to build the **Transitive Network**, a layer-2 payment network aiming to congregate the functionality of credit networks (e.g., IOweYou debt links in Ripple) and payment-channel networks (e.g., Lightning Network) without requiring any new token. The Transitive Network will be thereby a complementary scalable blockchain approach with key advantages in terms of performance, economic cost and security and privacy guarantees. The Transitive Network will thus provide Ethereum with a tool to attract the businesses currently associated to Bitcoin and Ripple, first and third cryptocurrencies in the current market capitalization, while avoiding the unnecessary tokenization introduced by the proposals like Raiden. 
 
-Click [here](proposal.md) for more details.
+Click [here](./resources/proposal.md) for more details.
 
 # Our Previous Research Work
 
