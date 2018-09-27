@@ -1,18 +1,19 @@
 # Transitive Network Implementation
 
+<p style="color:red"> DISCLAIMER: THE CODE IN THIS REPOSITORY IS A PROTOTYPE AND IS A BETA RELEASE. PLEASE DO NOT USE IT IN PRODUCTION.</p>
+
 ## Introduction
 
 This repository contains Ethereum smart contract code that is 
-used in transitive network.
+used in the Transitive Network.
 The following sections provide information on how to setup the development environment for the code.
-This page explains how to setup the development environment.
-For more information about the code, please refer [this]() 
+For more information about the contract code, please refer [this]() 
 document.
 
 ## Getting Started
 
 Ensure that `git` or `curl` is installed in your system.
-Download the repository [here](https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip) and extract it:
+Download the repository [here] [#TODO: Link to transitive network repo](https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip) and extract it:
 
 ```
 $ curl https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip
@@ -102,8 +103,6 @@ For more information on
 * ganache-cli: [Github Repository](https://github.com/trufflesuite/ganache-cli)
 * nodejs: [Docs](https://nodejs.org/en/docs/)
 
-If there are any bugs or questions, please raise an issue in the repository.
+If there are any bugs or questions, please raise an issue in the repository. 
 
 Website: [transitive.network](http://transitive.network)
- 
-Disclaimer: THE CODE IN THIS REPOSITORY IS A PROTOTYPE AND IS A BETA RELEASE. PLEASE DO NOT USE IT IN PRODUCTION.

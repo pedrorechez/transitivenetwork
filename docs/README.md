@@ -6,7 +6,7 @@
 
 * [Aniket Kate](https://www.cs.purdue.edu/homes/akate/)
 * [Pedro Moreno-Sanchez](https://www.cs.purdue.edu/homes/pmorenos/)
-* Adithya Bhat
+* [Adithya Bhat](mailto:bhat24@purdue.edu)
 * Durga Keerthi Mandarapu
 
 

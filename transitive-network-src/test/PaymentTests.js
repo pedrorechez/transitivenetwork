@@ -85,8 +85,6 @@ contract('CreditNetwork', function(accounts) {
         }
     });
 
-
-
     it("Verifying correctness of three link payment", async function() {
         let instance = await CreditNetwork.deployed();
 

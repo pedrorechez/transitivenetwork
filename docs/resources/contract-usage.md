@@ -98,8 +98,6 @@ provides a contract abstraction to the test script.
 
 The TransitiveNetwork smart contract provides several functions some of which are helper functions and some of which change the state of the contract.
 
-### Function 1: Purpose, parameters and where to obtain them, expected result and commonly encountered errors.
-
 ### Helper Functions
 These functions do not change the state of the contract, and therefore can be utilized by clients to query the state of the contract.
 
@@ -201,7 +199,7 @@ truffle(development)>
 ```
 This creates a link from `accounts[0]` to `accounts[1]`.
 
-* *updateLink*: 
+#### updateLink: 
 
 The link updation function takes the index of the link and updates the link 
 fields for the caller. For a link from A to B (A->B), A can update it's 
@@ -223,7 +221,7 @@ truffle(development)> networkInstance.updateLink('0xe3eacbb70be34d8e5aad4751036f
 truffle(development)>
 ```
 
-* *creditNetworkPay*:
+#### creditNetworkPay:
 
 This function takes as parameters the address of the payment receiver, 
 the amount to be paid, four arrays of link indices each array indicating 
@@ -243,7 +241,7 @@ truffle(development)> networkInstance.creditNetworkPay(web3.eth.accounts[2],5,['
 truffle(development)>
 ```
 
-* *addOffer*: 
+#### addOffer: 
 
 This function takes as input the two links to setup an exchange, the amount 
 in the input currency for the first link and the amount in the output link 
@@ -263,7 +261,7 @@ truffle(development)> networkInstance.addOffer('0xe3eacbb70be34d8e5aad4751036ffc
 truffle(development)>
 ```
 
-* *cancelOffer*: 
+#### cancelOffer: 
 
 This function cancels an existing active offer. It takes the offer index as its parameter.
 
