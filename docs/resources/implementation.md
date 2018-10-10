@@ -13,7 +13,7 @@ document.
 ## Getting Started
 
 Ensure that `git` or `curl` is installed in your system.
-Download the repository [here] [#TODO: Link to transitive network repo](https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip) and extract it:
+Download the repository [here](https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip) and extract it:
 
 ```
 $ curl https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip
@@ -99,9 +99,10 @@ ensure that the test network is up and running.
 ## Contact
 
 For more information on 
-* truffle: [Documentation](https://truffleframework.com/docs)
-* ganache-cli: [Github Repository](https://github.com/trufflesuite/ganache-cli)
-* nodejs: [Docs](https://nodejs.org/en/docs/)
+* Contract usage: [Implementation](./resources/contract-usage.md)
+* Truffle: [Documentation](https://truffleframework.com/docs)
+* Ganache-cli: [Github Repository](https://github.com/trufflesuite/ganache-cli)
+* NodeJS: [Docs](https://nodejs.org/en/docs/)
 
 If there are any bugs or questions, please raise an issue in the repository. 
 

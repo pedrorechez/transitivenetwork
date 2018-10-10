@@ -1,10 +1,15 @@
-We welcome all contributions - send a pull request or open an issue. When possible, send different pull requests by section/topic.
+#  Contribution Guidelines
 
-Feel free to peruse the [open issues](https://github.com/) {TODO:Fix Open Issue URL} for ideas which need to be expanded on a bit here.
+We welcome all contributions - send a pull request or open an issue. 
+When possible, send different pull requests by section/topic.
+
+Feel free to peruse the 
+[open issues](https://github.com/pedrorechez/transitivenetwork/issues) 
+for ideas which need to be expanded on a bit here.
 
 ## Editing and Submitting changes
 
-1. Fork the repo
+1. Fork the repository
 2. Make changes to the files
 3. Submit a Pull Request
 
