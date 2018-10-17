@@ -1,5 +1,5 @@
 /*
- *  Transitive Network Smart Contract
+ *  Solidity Contract
  *  Purdue University 2018
  *  Adithya Bhat <bhat24@purdue.edu>
  */
