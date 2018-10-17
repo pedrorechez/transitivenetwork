@@ -1,3 +1,8 @@
+/*
+ *  Transitive Network Smart Contract
+ *  Purdue University 2018
+ *  Adithya Bhat <bhat24@purdue.edu>
+ */
 pragma solidity ^0.4.21;
 
 
