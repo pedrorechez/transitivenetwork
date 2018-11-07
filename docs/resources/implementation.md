@@ -1,13 +1,13 @@
 # Transitive Network Implementation
 
-<p style="color:red"> DISCLAIMER: THE CODE IN THIS REPOSITORY IS A PROTOTYPE AND IS A BETA RELEASE. PLEASE DO NOT USE IT IN PRODUCTION.</p>
+<p style="color:red"> DISCLAIMER: THE CODE IN THIS REPOSITORY IS A RESEARCH PROTOTYPE. PLEASE DO NOT USE IT IN PRODUCTION.</p>
 
 ## Introduction
 
 This repository contains Ethereum smart contract code that is 
 used in the Transitive Network.
 The following sections provide information on how to setup the development environment for the code.
-For more information about the contract code, please refer [this](./resources/contract-usage.md) 
+For more information about the contract code, please refer [this](./contract-usage.html) 
 document.
 
 ## Getting Started
@@ -99,7 +99,7 @@ ensure that the test network is up and running.
 ## Contact
 
 For more information on 
-* Contract usage: [Implementation](./resources/contract-usage.md)
+* Contract usage: [Implementation](./contract-usage.html)
 * Truffle: [Documentation](https://truffleframework.com/docs)
 * Ganache-cli: [Github Repository](https://github.com/trufflesuite/ganache-cli)
 * NodeJS: [Docs](https://nodejs.org/en/docs/)
