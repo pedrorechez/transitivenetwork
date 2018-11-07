@@ -5,7 +5,7 @@ When possible, send different pull requests by section/topic.
 
 Feel free to peruse the 
 [open issues](https://github.com/pedrorechez/transitivenetwork/issues) 
-for ideas which need to be expanded on a bit here.
+for ideas which need to be expanded.
 
 ## Editing and Submitting changes
 

@@ -7,13 +7,13 @@
 This repository contains Ethereum smart contract code that is 
 used in the Transitive Network.
 The following sections provide information on how to setup the development environment for the code.
-For more information about the contract code, please refer [this]() 
+For more information about the contract code, please refer [this](./resources/contract-usage.md) 
 document.
 
 ## Getting Started
 
 Ensure that `git` or `curl` is installed in your system.
-Download the repository [here](https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip) and extract it:
+Download the repository [here](https://github.com/pedrorechez/transitivenetwork) and extract it:
 
 ```
 $ curl https://github.com/pedrorechez/CreditNetworkImplementation/archive/master.zip
