@@ -1,8 +1,0 @@
-theme: jekyll-theme-architect
-title: [Transitive Network]
-description: [The layer-2 tokenless scalable payment network for Ethereum]
-show_downloads: false
-github: 
-  is_project_page: false
-  is_user_page: true
-  owner_url: "https://github.com/pedrorechez"
