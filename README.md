@@ -10,12 +10,12 @@ More details can be found [here](./resources/implementation.md).
 
 # Team
 
-* <img src="https://www.cs.purdue.edu/homes/akate/images/Aniket.jpg" alt="Aniket
-  Kate" style="border-radius: 50%"/>
-* <img src="https://www.cs.purdue.edu/homes/pmorenos/pedro-new.JPG" alt="Pedro
-  Moreno Sanchez" style="border-radius: 50%" />
-* <img src="http://adithyak.me/images/me.jpg" alt="Adithya Bhat"
-  style="border-radius: 50%" />
+<img src="https://www.cs.purdue.edu/homes/akate/images/Aniket.jpg" alt="Aniket
+  Kate" style="border-radius: 50%; width:200px"/>
+<img src="https://www.cs.purdue.edu/homes/pmorenos/pedro-new.JPG" alt="Pedro
+  Moreno Sanchez" style="border-radius: 50%; width: 171px; height: 140px;" />
+<img src="http://adithyak.me/images/me.jpg" alt="Adithya Bhat"
+  style="border-radius: 50%; width:150px;" />
 
 # Credit Network Research
 
