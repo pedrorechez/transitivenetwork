@@ -1,0 +1,10 @@
+theme: jekyll-theme-architect
+title: [Transitive Network]
+description: [Tokenless IOU Credit Network in Ethereum]
+show_downloads: false
+github: 
+  is_project_page: true
+  is_user_page: false
+  owner_url: "https://github.com/pedrorechez"
+plugins:
+    - jekyll-sitemap
