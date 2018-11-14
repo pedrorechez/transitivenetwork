@@ -1,8 +1,8 @@
-const CreditNetwork = artifacts.require("./CreditNetwork.sol");
+const TransitiveNetwork = artifacts.require("./TransitiveNetwork.sol");
 
-contract('CreditNetwork', function(accounts) {
+contract('TransitiveNetwork', function(accounts) {
     it("Register if not Registered", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         try {
             let nodeStatus = await instance.checkNode.call(A);
@@ -17,7 +17,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Fail Registration Second time", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         try {
             await instance.addNode({ from: A });

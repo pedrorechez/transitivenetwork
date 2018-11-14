@@ -1,11 +1,11 @@
-const CreditNetwork = artifacts.require("./CreditNetwork.sol");
+const TransitiveNetwork = artifacts.require("./TransitiveNetwork.sol");
 const fees = 1;
 const curId = 1;
 const ulim = 100;
 
-contract('CreditNetwork', function(accounts) {
+contract('TransitiveNetwork', function(accounts) {
     it("Node Registration for Link creation", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         try {
@@ -22,7 +22,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Create a Link", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         try {
@@ -36,7 +36,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Default link value sanity check", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         try {
@@ -57,7 +57,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Update a Link Value (Creator)", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         try {
@@ -82,7 +82,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Update a Link Value (Origin)", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         try {
@@ -106,7 +106,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Try Creating a Link a second time", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         try {
@@ -118,7 +118,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Third person Link update", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         let C = accounts[2];
@@ -132,7 +132,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Self Links are not allowed", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         try {
             await instance.createLink(curId, A, ulim, true, fees, { from: A });
@@ -143,7 +143,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("CreateLink from the other direction is allowed", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         try {
@@ -154,7 +154,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Lowering of upperlimit below currentValue", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         let A = accounts[0];
         let B = accounts[1];
         try {

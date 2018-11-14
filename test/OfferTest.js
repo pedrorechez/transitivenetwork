@@ -1,10 +1,10 @@
-const CreditNetwork = artifacts.require("./CreditNetwork.sol");
+const TransitiveNetwork = artifacts.require("./TransitiveNetwork.sol");
 const curId1 = 1
 const curId2 = 2
 
-contract('CreditNetwork', function(accounts) {
+contract('TransitiveNetwork', function(accounts) {
     it("Add a new offer", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -30,7 +30,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Others cannot cancel", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -51,7 +51,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Cancel an offer", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];

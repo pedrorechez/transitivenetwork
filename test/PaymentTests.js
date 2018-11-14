@@ -1,8 +1,8 @@
-const CreditNetwork = artifacts.require("./CreditNetwork.sol");
+const TransitiveNetwork = artifacts.require("./TransitiveNetwork.sol");
 var linkAB;
-contract('CreditNetwork', function(accounts) {
+contract('TransitiveNetwork', function(accounts) {
     it("Single Link Payment", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         try {
@@ -20,7 +20,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Verifying correctness of Single link Payment", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
 
@@ -33,7 +33,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("If Ripple Flags are respected", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         try {
@@ -55,7 +55,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Three Link Payment Single Currency", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -86,7 +86,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Verifying correctness of three link payment", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
 
         A = accounts[0];
         B = accounts[1];
@@ -120,7 +120,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("if we can use any direction of the link", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         try {
             let linkBC = await instance.viewLink(B, C, 1);
             let linkCD = await instance.viewLink(C, D, 1);
@@ -147,7 +147,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Cross Currency Single Conversion Payment", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -164,7 +164,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Cross Currency Three Conversion Payment", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -194,7 +194,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Cancel offer in a cross currency Payment must fail", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
@@ -221,7 +221,7 @@ contract('CreditNetwork', function(accounts) {
     });
 
     it("Payment with integer values flowing with rational conversion rates", async function() {
-        let instance = await CreditNetwork.deployed();
+        let instance = await TransitiveNetwork.deployed();
         A = accounts[0];
         B = accounts[1];
         C = accounts[2];
