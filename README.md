@@ -1,4 +1,3 @@
-
 # Project Summary
 We plan to build the **Transitive Network**, a layer-2 payment network aiming to congregate the functionality of credit networks (e.g., IOweYou debt links in Ripple) and payment-channel networks (e.g., Lightning Network) without requiring any new token. The Transitive Network will be thereby a complementary scalable blockchain approach with key advantages in terms of performance, economic cost and security and privacy guarantees. The Transitive Network will thus provide Ethereum with a tool to attract the businesses currently associated to Bitcoin and Ripple, first and third cryptocurrencies in the current market capitalization.
 
@@ -33,15 +32,15 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 
 <tr>
 	<td>
-	<p> <a href="https://www.cs.purdue.edu/homes/akate" target="_blank"><b> Aniket Kate </b> </a></p>
+	<p> <a href="https://www.cs.purdue.edu/homes/akate"><b> Aniket Kate </b> </a></p>
 	</td>
 	
 	<td>
-	<p> <a href="https://www.cs.purdue.edu/homes/pmorenos" target="_blank"><b> Pedro Moreno-Sanchez </b> </a></p>
+	<p> <a href="https://www.cs.purdue.edu/homes/pmorenos" ><b> Pedro Moreno-Sanchez </b> </a></p>
 	</td>
 
 	<td>
-	<p> <a href="https://adithyak.me" target="_blank"> <b> Adithya Bhat </b> </a> </p>
+	<p> <a href="https://adithyak.me" > <b> Adithya Bhat </b> </a> </p>
 	</td>
 
 </tr>

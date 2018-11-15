@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
-title: [Transitive Network]
-description: [Tokenless IOU Credit Network in Ethereum]
+title: ["Transitive Network"]
+description: ["Tokenless IOU Credit Network in Ethereum"]
 show_downloads: false
 github: 
   is_project_page: true
