@@ -13,17 +13,17 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 
 <table>
 <tr>
-	<td align="center" width=33%">
+	<td>
 	<img src="https://www.cs.purdue.edu/homes/akate/images/Aniket.jpg" alt="Aniket
   Kate" style="border-radius: 50%; width:200px"/>
 	</td>
 	
-	<td align="center" width=33%">
+	<td>
 	<img src="https://www.cs.purdue.edu/homes/pmorenos/pedro.png" alt="Pedro
-  Moreno Sanchez" style="border-radius: 50%; width: 200px; height: 140px;" />
+  Moreno Sanchez" style="border-radius: 50%; width: 160px; height: 140px;" />
 	</td>
 	
-	<td align="center" width=33%">
+	<td>
 	<img src="http://adithyak.me/images/me.jpg" alt="Adithya Bhat"
   style="border-radius: 50%; width:150px;" />
 
