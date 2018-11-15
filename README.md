@@ -77,5 +77,9 @@ More details can be found [here](./resources/implementation.md).
 
 * [Fulgor and Rayo](https://eprint.iacr.org/2017/820): We show an unavoidable tradeoff between concurrency and privacy in PCNs. Thus, Fulgor is a PCN with strong privacy guarantees and weak concurrency while Rayo provides strong concurrency guarantees at the cost of weakeaning the privacy.
 
+## Talks
 
+* [Introduction to Credit Networks - CCS 2016 Tutorial](https://www.youtube.com/watch?v=MFbrGvWj8V0)
+* [Privacy Preserving Payments in Credit Networks - CERIAS](https://www.youtube.com/watch?v=GIOOdEU_vXA)
+* [IOweYou Credit Networks](https://www.youtube.com/watch?v=-u49hYZ2IQs)
 
