@@ -20,7 +20,7 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 	
 	<td>
 	<img src="https://www.cs.purdue.edu/homes/pmorenos/pedro.png" alt="Pedro
-  Moreno Sanchez" style="border-radius: 50%; width: 160px; height: 140px;" />
+  Moreno Sanchez" style="border-radius: 50%; width: 180px; height: 140px;" />
 	</td>
 	
 	<td>
@@ -32,15 +32,15 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 </tr>
 
 <tr>
-	<td align="center" width=33%">
+	<td>
 	<p> <a href="http://cs.purdue.edu/homes/akate"><b> Aniket Kate </b> </a></p>
 	</td>
 	
-	<td align="center" width=33%">
+	<td>
 	<p> <a href="http://cs.purdue.edu/homes/pmorenos"><b> Pedro Moreno-Sanchez </b> </a></p>
 	</td>
 
-	<td align="center" width=33%">
+	<td>
 	<p> <a href=""> <b> Adithya Bhat </b> </a> </p>
 	</td>
 
