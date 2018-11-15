@@ -24,7 +24,7 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 	</td>
 	
 	<td>
-	<img src="http://adithyak.me/images/me.jpg" alt="Adithya Bhat"
+	<img src="https://adithyak.me/images/me.jpg" alt="Adithya Bhat"
   style="border-radius: 50%; width:150px;" />
 
 	</td>
@@ -33,15 +33,15 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 
 <tr>
 	<td>
-	<p> <a href="http://cs.purdue.edu/homes/akate"><b> Aniket Kate </b> </a></p>
+	<p> <a href="https://www.cs.purdue.edu/homes/akate" target="_blank"><b> Aniket Kate </b> </a></p>
 	</td>
 	
 	<td>
-	<p> <a href="http://cs.purdue.edu/homes/pmorenos"><b> Pedro Moreno-Sanchez </b> </a></p>
+	<p> <a href="https://www.cs.purdue.edu/homes/pmorenos" target="_blank"><b> Pedro Moreno-Sanchez </b> </a></p>
 	</td>
 
 	<td>
-	<p> <a href=""> <b> Adithya Bhat </b> </a> </p>
+	<p> <a href="https://adithyak.me" target="_blank"> <b> Adithya Bhat </b> </a> </p>
 	</td>
 
 </tr>
