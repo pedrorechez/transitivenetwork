@@ -40,7 +40,7 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 	</td>
 
 	<td>
-	<p> <a href="https://adithyak.me" > <b> Adithya Bhat </b> </a> </p>
+	<p> <a href="https://www.cs.purdue.edu/people/graduate-students/bhat24" > <b> Adithya Bhat </b> </a> </p>
 	</td>
 
 </tr>
