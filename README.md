@@ -4,6 +4,7 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 
 # News
 
+* New Medium Article: [Towards a Tokenless IOU Credit Network Realization in Ethereum](https://medium.com/@aniketkate/towards-a-tokenless-iou-credit-network-realization-in-ethereum-a512e11dcf5e)
 
 # Team
 
