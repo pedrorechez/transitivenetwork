@@ -133,10 +133,10 @@ contract TransitiveNetwork {
     function creditNetworkPay(
         address toPay, 
         uint32 value,
-        bytes20[] path1, 
-        bytes20[] path2,
-        bytes20[] path3,
-        bytes20[] path4) public returns (bool, string, uint) 
+        bytes20[] memory path1, 
+        bytes20[] memory path2,
+        bytes20[] memory path3,
+        bytes20[] memory path4) public returns (bool, string memory, uint) 
     {
         require(path1.length > 0 || path2.length > 0 || path3.length > 0 || path4.length > 0);
         uint fees = 0;
@@ -207,7 +207,8 @@ contract TransitiveNetwork {
         return (hashLinkMap[idx].from.addr != 0);
     }
 
-    function viewLink (address _one, address _two, uint8 currencyID) public view returns (bytes20) {
+    function viewLink (address _one, address _two, uint8 currencyID) public view
+    returns (bytes20) {
         require(checkNode(_one) &&
             checkNode(_two));
 
@@ -234,7 +235,8 @@ contract TransitiveNetwork {
         currencyID = hashLinkMap[idx].currencyID;
     }
 
-    function getOfferBy(address _by, bytes20 inputIdx, bytes20 outputIdx) public pure returns (bytes20) {
+    function getOfferBy(address _by, bytes20 inputIdx, bytes20 outputIdx) 
+            public pure returns (bytes20) {
         bytes20 idx = ripemd160(inputIdx, outputIdx, _by);
         return idx;
     }
@@ -252,7 +254,8 @@ contract TransitiveNetwork {
         return amount*offer.outputAmount/offer.inputAmount;
     }
 
-    function PathPay(address start, address toPay, uint32 value, bytes20[] path) private returns (uint) {
+    function PathPay(address start, address toPay, uint32 value, bytes20[]
+                     memory path) private returns (uint) {
         address toCheck = start;
         Link memory prevLink = hashLinkMap[path[0]];
         Link storage linkToTest = hashLinkMap[path[0]];
