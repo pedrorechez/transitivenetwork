@@ -49,6 +49,7 @@ We plan to build the **Transitive Network**, a layer-2 payment network aiming to
 
 
 # Implementation (prototype)
+
 A prototype implementation of transitive network is available [here](https://github.com/pedrorechez/transitivenetwork). 
 The prototype is still in development and not ready for public use.
 More details can be found [here](./resources/implementation.md).
@@ -83,4 +84,5 @@ More details can be found [here](./resources/implementation.md).
 * [Introduction to Credit Networks - CCS 2016 Tutorial](https://www.youtube.com/watch?v=MFbrGvWj8V0)
 * [Privacy Preserving Payments in Credit Networks - CERIAS](https://www.youtube.com/watch?v=GIOOdEU_vXA)
 * [IOweYou Credit Networks](https://www.youtube.com/watch?v=-u49hYZ2IQs)
+* [Transitive Network, Financial Cryptography 2019](docs/TransitiveNetwork.pdf)
 
