@@ -84,5 +84,5 @@ More details can be found [here](./resources/implementation.md).
 * [Introduction to Credit Networks - CCS 2016 Tutorial](https://www.youtube.com/watch?v=MFbrGvWj8V0)
 * [Privacy Preserving Payments in Credit Networks - CERIAS](https://www.youtube.com/watch?v=GIOOdEU_vXA)
 * [IOweYou Credit Networks](https://www.youtube.com/watch?v=-u49hYZ2IQs)
-* [Transitive Network, Financial Cryptography 2019](docs/TransitiveNetwork.pdf)
+* [Transitive Network, Financial Cryptography 2019](docs/TransitiveNetworkFC19.pdf)
 
